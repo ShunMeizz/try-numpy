@@ -2,9 +2,9 @@ import numpy as np
 
 a = np.array([[1,2,3],
              [4,5,6],
-             [7,8,"9"]])
-print(a) #will treat everything as string
-print(a.dtype) #will make the datatype of whole array as string
+             [7,8,"9"]]) #the string 9 makes the whole array as string
+print(a)
+print(a.dtype)
 print(type(a[2][2]))
 
 b = np.array([[1,2,3],
